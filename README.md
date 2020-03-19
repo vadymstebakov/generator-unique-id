@@ -18,7 +18,7 @@ or
 ```js
 import ID from 'generator-unique-id';
 ```
-and call this function.
+and call this function.\n
 For example:
 ```js
 list.map(item => <li key={ID()} data={item} />)
