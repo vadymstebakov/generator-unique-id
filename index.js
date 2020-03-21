@@ -1,4 +1,4 @@
-var ID = function() {
+module.exports = function() {
 	return (
 		'_' +
 		(
@@ -8,5 +8,3 @@ var ID = function() {
 		).toString(36)
 	);
 };
-
-module.exports = ID;
